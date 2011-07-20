@@ -22,6 +22,7 @@ class HelpController extends AppController{
 
   function page_4(){
 	echo 'd';
+	echo 'ttttttttt';
 
   }
 
