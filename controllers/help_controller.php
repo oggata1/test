@@ -12,6 +12,8 @@ class HelpController extends AppController{
   function page_2(){
   	echo 'b';
     echo '22222';
+    $fruit=array('apple','banana');
+    var_dump($fruit);
   }
 
   function page_3(){
