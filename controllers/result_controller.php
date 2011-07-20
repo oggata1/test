@@ -4,6 +4,7 @@ class ResultController extends AppController{
   var $uses = array('StructureSql','Member','Ship','OwnWepon','Message','Exp');
 
   function destroy(){
+  echo 'bb';
     $this->session_manage();
     //セッションから会員番号を取得
     $member_id = $this->session_data['id'];

@@ -5,9 +5,9 @@ class RankingController extends AppController{
   var $uses = array('StructureSql','Message');
 
   function top(){
-  echo 'a';
+  echo 'bb';
     $this->session_manage();
-    //セッションから会員番号を取得
+    //繧ｻ繝�す繝ｧ繝ｳ縺九ｉ莨壼藤逡ｪ蜿ｷ繧貞叙蠕�
     $member_id = $this->session_data['id'];
     $mdata = $this->StructureSql->select_member_detail($member_id);
     $rankings = $this->StructureSql->select_rankings();
@@ -16,7 +16,7 @@ class RankingController extends AppController{
 
   function messages(){
     $this->session_manage();
-    //セッションから会員番号を取得
+    //繧ｻ繝�す繝ｧ繝ｳ縺九ｉ莨壼藤逡ｪ蜿ｷ繧貞叙蠕�
     $member_id = $this->session_data['id'];
     $mdata = $this->StructureSql->select_member_detail($member_id);
     $messages = $this->Message->findAll(array('member_id'=>$member_id),null,'id desc',40,null,null);

@@ -8,6 +8,7 @@ class LoginController extends AppController{
   var $uses = array('Member','Ship','OwnWepon');
 
   function mixi_login(){
+  echo 'bb';
   echo 'a';
     $mixi_account_id = $this->params['form']['id'];
     $mixi_name = $this->params['form']['name'];
