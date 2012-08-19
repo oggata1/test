@@ -5,6 +5,8 @@ class HelpController extends AppController{
   var $uses = array('Member');
 
 
+  function vvvv(){}
+
   function tttt(){
     
   }
