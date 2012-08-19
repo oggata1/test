@@ -11,6 +11,10 @@ class HelpController extends AppController{
     echo '11111';
   }
 
+  function page_3(){
+    echo 'rrrr';
+  }
+
   function page_2(){
     echo 'b';
     echo '22222';
