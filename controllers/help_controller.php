@@ -4,6 +4,10 @@ class HelpController extends AppController{
 
   var $uses = array('Member');
 
+  function page_0(){
+    echo 'test2';
+  }
+
   function page_1(){
   echo 'bb';
   echo 'a';
