@@ -3,3 +3,10 @@ aaaaaaaaaaaaaaa
 
 242424242424242
 1
+
+
+conf_1 = {
+server=>192.168.0.1
+name=>'user'
+pass=>'pass'
+}
