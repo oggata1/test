@@ -15,6 +15,7 @@ server=>192.168.0.1
 name=>'user'
 pass=>'pass'
 }
+<<<<<<< HEAD
 
 conf_4 = {
 server=>192.168.0.1
@@ -28,3 +29,5 @@ name=>'user3'
 pass=>'pass3'
 }
 
+=======
+>>>>>>> parent of 2e607d9... change3
