@@ -8,4 +8,10 @@ conf_2 = {
 server=>192.168.0.2
 name=>'user2'
 pass=>'pass2'
+},
+
+conf_1 = {
+server=>192.168.0.1
+name=>'user'
+pass=>'pass'
 }
