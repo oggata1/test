@@ -16,6 +16,12 @@ name=>'user'
 pass=>'pass'
 }
 
+conf_4 = {
+server=>192.168.0.1
+name=>'aaa'
+pass=>'vvv'
+}
+
 conf_3 = {
 server=>192.168.0.3
 name=>'user3'
